@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://kit.fontawesome.com/c601a62e46.css" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap" rel="stylesheet">
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/c601a62e46.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script> 
+    <header>
+        <nav>
+            <button class="boton-nav" onclick="ocultar()">MENÚ</button>
+            <a href="#presentacion" class="barra-nav ocultar">Inicio</a>
+            <a href="#experiencia" class="barra-nav ocultar">Experiencia</a>
+            <a href="#contacto" class="barra-nav ocultar">Dirección y Contacto</a>
+        </nav>
+    </header>
+<main>
+    <section id="presentacion">
+        <h1>Luke Matthews</h1>
+        <h2 id="h2-deco">Gasista Matriculado</h2>
+        <div class="mi-imagen">
+            <img src="Luke M.jpg" alt="No se pude mostrar la imagen, revise su navegador" width="250" height="250">
+            <p style="text-align: center;">Instalacion y mantenimiento de redes de gas domiciliario y artefactos a gas.</p>
+        </div>
+    </section>
+    <section id="educacion">
+        <h2 id="h2-deco">Educación y Capacitación</h2>
+        <h4 id="neg-sub">Título Secundario</h4>
+        <h4 id="centrarH4">Técnico egresado de la Escuela de Educación Técnica Nº 27</h4>
+        <h4 id="neg-sub">Título Profesional</h4>
+        <h4 id="centrarH4">Instalador de Redes de Gas Domiciliario egresado de la Escuela Profesional Nº 10 "Patricias Argentinas"</h4>
+        <h4 id="neg-sub">Capacitación</h4>
+        <h4 id="centrarH4">Curso de Inglés en Centro Universitario de Idiomas de la UBA</h4>
+    </section>
+    <section id="experiencia">
+        <h2 id="h2-deco">Experiencia Laboral</h2>
+        <div class="trabajos-realizados">
+            <div class="trabajo">
+                <img src="IDG-1.webp" alt="No se pude mostrar la imagen, revise su navegador" width="200" height="200">
+                <h3 class="reseña">T1. Instalación de cañeria de gas natural para cocina domiciliaria.</h3>
+            </div>
+            <div class="trabajo">
+                <img src="IDG-2.jpg" alt="No se pude mostrar la imagen, revise su navegador" width="200" height="200">
+                <h3 class="reseña">T2. Remplazo de regulador de gas defectuoso.</h3>
+            </div>
+            <div class="trabajo">
+                <img src="IDG-3.jpg" alt="No se pude mostrar la imagen, revise su navegador" width="200" height="200">
+                <h3 class="reseña">T3. Instalación de cañeria de gas y calefón.</h3>
+            </div>
+            <div class="trabajo">
+                <img src="IDG-4.jpg" alt="No se pude mostrar la imagen, revise su navegador" width="200" height="200">
+                <h3 class="reseña">T4. Plano de instalación de red de gas domiciliario.</h3>
+            </div>
+        </div>
+    </section>
+    <section id="contacto">
+        <div>
+            <div>
+                <h2 id="h2-deco">Dirección y Contacto</h2>
+                <div>
+                    <h3 class="item"><i class="fa-solid fa-location-dot"></i> Dirección</h3>
+                    <p>8244 W Sherman Dr.</p>
+                </div>
+                    <div>
+                        <h3 class="item"><i class="fa-sharp fa-solid fa-phone"></i> Teléfono</h3>       
+                        <p>(624) 623-9219</p>
+                    </div>
+                    <div>
+                        <h3 class="item"><i class="fa-regular fa-envelope"></i> e-mail</h3>
+                        <p>luke.m@example.com</p>
+                    </div>
+
+            </div>
+        </div>
+    </section>
+    <form action="" class="formulario">
+            <h2 class="tit-formulario">Contáctame</h2>
+            <input type="text" class="form-comunicacion">
+            <label for="" class="form-etiqueta">Nombre</label>
+            <input type="text" class="form-comunicacion">
+            <label for="" class="form-etiqueta">Apellido</label>
+            <input type="text" class="form-comunicacion">
+            <label for="" class="form-etiqueta">País</label>
+            <input type="text" class="form-comunicacion">
+            <label for="" class="form-etiqueta">Provincia/Estado</label>
+            <input type="text" class="form-comunicacion">
+            <label for="" class="form-etiqueta">Ciudad</label>
+            <input type="text" class="form-comunicacion">
+            <label for="" class="form-etiqueta">e-mail</label>
+            <input type="text" class="form-comunicacion">
+            <label for="" class="form-etiqueta">Comentario</label>
+            <button type="submit" class="form-submit">Enviar</button>
+    </form>
+</main>
+</body>
+</html>

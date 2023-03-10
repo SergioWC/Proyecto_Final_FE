@@ -1,0 +1,192 @@
+header{
+    margin: 50px;
+    position:sticky;
+    top: 80px;
+    display: inline-flexbox;
+    z-index: 1;
+}
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(IDG-fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+section#presentacion{
+    border-style: solid;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+p{
+    color: white;
+    font-size: larger;
+    margin: 10px;
+    padding: 10px;
+}
+h4#neg-sub{
+    color: white;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+h2#h2-deco{
+    color: white;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+section#educacion{
+    color: white;
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 30px;
+    font-weight: bolder;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section#experiencia{
+    border-style: solid;
+    border-radius: 20px;
+    margin: auto;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section#contacto{
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    margin: 10px;
+}
+.trabajos-realizados{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.trabajo{
+    border: 5px solid black;
+    border-radius: 15px;
+    width: 300px;
+    margin: 20px;
+}
+img{
+    transform: scale(0.9);
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding-top: 10px;
+}
+img:hover{
+    transform: scale(1.8);
+    transition: all 0.5s linear;
+}
+.reseña{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+.barra-nav{
+    background: rebeccapurple;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+nav{
+    border-style: solid;
+    border-radius: 20px;
+    background: lightcoral;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.boton-nav{
+    background: sandybrown;
+    color: aliceblue;
+    padding: 10px 0;
+    border: 2px solid aliceblue;
+    display: none;
+}
+a{
+    font-size: x-large;
+    text-decoration: none;
+}
+@media (max-width: 600px){
+    nav{
+        background: brown;
+        flex-direction: column;
+    }
+    .barra-nav{
+        margin: 10px;
+    }
+    .boton-nav{
+        display: inline-block;
+    }
+    .ocultar{
+        display: none;
+    }
+
+}
+seccion#comunicacion{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px white;
+}
+section#com{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    margin: 10px;
+
+}
+.formulario{
+    display: grid;
+    color: rgba(255, 255, 255, 0.432);
+    width:auto;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,2);
+    position: relative;
+}
+.tit-formulario{
+    text-align: center;
+    margin-top: 0;
+    color: rgba(0,0,0,2);
+}
+.form-comunicacion, .form-etiqueta, .form-submit{
+    display: flexbox;
+    width: 100%;
+    font-size: 1.3em;
+    background: transparent;
+}
+.form-comunicacion{
+    max-width: 100%;
+    padding: 30px;
+    border: 1px solid rgba(0,0,0,2);
+}
+.form-etiqueta{
+    padding-left: 15px;
+}
+.form-submit{
+    margin: 10px 35px;
+    padding: 25px 15px 20px 30px;
+    text-align: center;
+}
